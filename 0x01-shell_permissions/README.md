@@ -11,3 +11,4 @@ chmod --reference=olleh hello,sets the mode of the file hello the same as ollehâ
 chmod -R a+X .  a script that adds execute permission to all subdirectories of  current directory for the owner, the group owner and all other users without changing regular files
 mkdir -m751 my_dir, script that creates a directory called my_dir with permissions 751 in the working directory.
 chgrp school hello,script that changes the group owner to school for the file hello
+groups, script that prints all the groups the current user is part of
