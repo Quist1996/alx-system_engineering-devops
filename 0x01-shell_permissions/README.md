@@ -7,3 +7,4 @@ chmod +114 hello, execute permission to the owner and the group owner, and read 
 chmod +x hello,adds execution permission to the owner, the group owner and the other users, to the file hello
 chmod 007 hello,execution permission to the owner, the group owner and the other users, to the file hello
 chmod 753 hello, a script that sets the mode of the file hello to -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
+chmod --reference=olleh hello,sets the mode of the file hello the same as olleh’s mode.
