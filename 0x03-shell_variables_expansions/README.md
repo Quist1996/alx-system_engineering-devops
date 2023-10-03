@@ -10,4 +10,5 @@ echo $((128 + $TRUEKNOWLEDGE)),script that prints the result of the addition of 
 echo $((POWER / DIVIDE)),a script that prints the result of POWER divided by DIVIDE, followed by a new line.
 echo $((BREATH**LOVE)),script that prints the result of POWER divided by DIVIDE, followed by a new line.
 printf "%d\n" $BINARY"script that converts a number from base 2 to base 10.
-echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo",script that prints all possible combinations of two letters, except oo.
+echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo",script that prints all possible combinations of two letters, except ooo.
+print "%2.f\n" $NUM,script that prints a number with two decimal places, followed by a new line.
