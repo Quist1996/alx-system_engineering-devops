@@ -21,4 +21,5 @@ grep -v "bin" /etc/passwd | wc -l, Display all the lines in the file /etc/passwd
 
 grep '^{[:alpha:]}' /etc/ssh/sshd_config,Display all lines of the file /etc/ssh/sshd_config starting with a letter.
 tr Ac Ze,Replace all characters A and c from input to Z and e respectively.
-tr -d 'cC',reate a script that removes all letters c and C from input.
+tr -d 'cC',reate a script that removes all letters c and C from input
+rev, Write a script that reverse its input..
