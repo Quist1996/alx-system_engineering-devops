@@ -14,4 +14,4 @@ ls -t | head ,script that displays the 10 newest files in the current directory.
 sort | uniq -u, script that takes a list of words as input and prints only words that appear exactly once.
 
 Input format: One line, one word
-
+grep "root" /etc/passwd,Display lines containing the pattern “root” from the file /etc/passwd
