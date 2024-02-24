@@ -1,0 +1,2 @@
+
+ssusr/bin/env bash
